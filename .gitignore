@@ -1,3 +1,9 @@
+# IDEA
+.idea
+
+# maven
+target
+
 # Compiled class file
 *.class
 

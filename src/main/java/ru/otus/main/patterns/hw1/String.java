@@ -29,4 +29,8 @@ public class String {
         arrayOfChar = null;
         length = 0;
     }
+
+    public char[] getArrayOfChar() {
+        return arrayOfChar.clone();
+    }
 }

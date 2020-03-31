@@ -51,7 +51,7 @@ public class StringStack {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("String:[");
         for (int i = 0; i <= index; i++) {
-            stringBuilder.append("{").append(stack[i].arrayOfChar).append("},");
+            stringBuilder.append("{").append(stack[i].getArrayOfChar()).append("},");
         }
         stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         stringBuilder.append("]");
